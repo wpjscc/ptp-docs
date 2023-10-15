@@ -29,7 +29,7 @@ www.domain.com = /path/to/cert.pem
 
 ::: tip
 
-如果客户端没有/etc/ssl/cacert.pem 文件，可使用下面命令创建
+当使用tls时如果没有/etc/ssl/cacert.pem 文件，可使用下面命令创建。客户端和服务端都需要
 
 ```sh
 
