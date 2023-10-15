@@ -1,4 +1,4 @@
-import{_ as n,r as d,o as s,c,a as e,d as i,b as l,e as a}from"./app-91fc3477.js";const p={},r=a(`<h1 id="架构" tabindex="-1"><a class="header-anchor" href="#架构" aria-hidden="true">#</a> 架构</h1><p>该工具的目标有两个</p><ul><li><p>第一个目标：为了让右侧的 User 能访问到 Client 的本地服务</p></li><li><p>第二个目标：让 ClientA 和 Client B 可相互通信</p></li></ul><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>                                   or single tunnel 
+import{_ as n,r as d,o as s,c,a as e,d as i,b as l,e as a}from"./app-94b8f45f.js";const p={},r=a(`<h1 id="架构" tabindex="-1"><a class="header-anchor" href="#架构" aria-hidden="true">#</a> 架构</h1><p>该工具的目标有两个</p><ul><li><p>第一个目标：为了让右侧的 User 能访问到 Client 的本地服务</p></li><li><p>第二个目标：让 ClientA 和 Client B 可相互通信</p></li></ul><div class="language-text line-numbers-mode" data-ext="text"><pre class="language-text"><code>                                   or single tunnel 
                                        |             
                             Server     |           |------------------|
                             |-------tunnel-&gt;-------|                  |                        

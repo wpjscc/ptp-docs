@@ -3,7 +3,7 @@ import { searchPlugin } from '@vuepress/plugin-search'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2";
 
 export default defineUserConfig({
-  // base: '/',
+  base: '/ptp-docs/',
   // lang: 'zh-CN',
   // title: '你好， VuePress ！',
   // description: '这是我的第一个 VuePress 站点',
@@ -35,13 +35,13 @@ export default defineUserConfig({
     docsRepo: 'https://github.com/wpjscc/ptp-docs',
     docsBranch: 'master',
     docsDir: 'docs',
-    editLinkPattern: ':repo/-/edit/:branch/:path',
+    editLinkPattern: ':repo/edit/:branch/:path',
 
     sidebarDepth: 0,
 
     // repo: 'vuejs/vuepress',
     // 你也可以直接将它设置为一个 URL
-    repo: 'https://github.com/wpjscc/ptp-docs',
+    repo: 'https://github.com/wpjscc/ptp',
     locales: {
       '/': {
         selectLanguageName: '简体中文',
