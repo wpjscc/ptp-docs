@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-ba934fd8","path":"/config/","title":"配置说明","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1697333319000,"contributors":[{"name":"wpjscc","email":"wpjscc@gmail.com","commits":1}]},"filePathRelative":"config/README.md"}');export{t as data};
